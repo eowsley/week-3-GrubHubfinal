@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* command/ is a shortcut */
+body {
+  font-family: "graphik", sans-serif;
+}
+.announce-bar {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(54, 40, 107);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+}
+.link {
+  color: white;
+  font-weight: bold;
+}
+.link:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+.hero-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  font-family: "graphik", sans-serif;
+}
+.container {
+  width: 50%;
+  height: 100%;
+  padding: 124px 100px 64px;
+}
+.container-left {
+  background-image: url("https://media-cdn.grubhub.com/image/upload/c_scale,w_1650/q_50,dpr_auto,f_auto,fl_lossy,c_crop,e_vibrance:20,g_center,h_900,w_800/v1534256595/Onboarding/Burger.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  /* position: relative; */
+}
+/* .logo-image {
+    position: absolute;
+    top: 12%;
+    width: 200px;
+    margin-left: 100px;
+} */
+.container-right {
+}
+.container-right ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+.container-right a {
+  text-decoration: none;
+}
+.perk-button {
+  color: rgb(0, 112, 235);
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 90%;
+  justify-content: center;
+}
+h1 {
+    font-size: 2.3em;
+}
+svg {
+    width: 20px;
+    height: 20px;
+    fill: blue;
+}
+.finder, button {
+    width: 100%;
+
+}
